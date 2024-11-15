@@ -2,15 +2,28 @@
 <html lang="pt">
 <head>
     <meta charset="utf-8">
-    <title>Aula 07 - CSS (Menus de Navegação)</title>
+    <title>principios/title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!DOCTYPE html>
+<html lang="pt">
+<head>
+
+
+<meta charset="utf-8">
+<title>Aula 07 - CSS (Menus de Navegação)</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
     <nav class="menulateral">
         <ul>
-            <!-- Primeiro item de menu -->
-            <li>
-                <a class="active" href="index.html">Meu blog</a>
+             <!-- Primeiro item de menu -->
+             <li>
+                <a href="index.html">Meu blog</a>
             </li>
 
             <!-- Menu "Lei 8112" com submenu expansível -->
@@ -26,16 +39,19 @@
 
             <!-- Menu "Lei Improbidade" com submenu expansível -->
             <li>
-                <input type="checkbox" id="menu2" class="menu-checkbox">
+                <input type="checkbox" id="menu2" class="menu-checkbox" checked>
                 <label for="menu2"><a href="leiimprobidade.html">Lei Improbidade</a></label>
                 <ul>
                     <li><a href="penalidadess.html">Penalidades</a></li>
-                    <li><a href="principios.html">Princípios</a></li>
+                    <li><a a class="active" href="principios.html">Princípios</a></li>
                     <li><a href="prescicao.html">Prescrição</a></li>
+
+
                 </ul>
             </li>
+             <li>
 
-            <!-- Menu "etica correios" com submenu expansível -->
+                <!-- Menu "etica correios" com submenu expansível -->
             <li>
                 <input type="checkbox" id="menu3" class="menu-checkbox">
                 <label for="menu3"><a href="eticacorreios.html">Ética correios</a></label>
@@ -47,17 +63,21 @@
                 </ul>
             </li>
 
-           
 
         </ul>
     </nav>
 
     <div style="margin-left:16%; padding:1px 16px; height:1000px;">
-        <h1>
-            <center>
-                <img class="imagem" src="FOTOBLOG.webp" alt="foto">
-            </center>
-        </h1>
+       
+        <h1>Princípios</h1>
+
+        <br>
+        <figure>
+            <img class="imagem"  src="https://cdn.shopify.com/s/files/1/0116/7373/1130/articles/linha_2727_imagem_3_questao-direito-administrativo-atos-de-improbidade.png?v=1535827670">
+           
+        </figure>
+
     </div>
+
 </body>
 </html>

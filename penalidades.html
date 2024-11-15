@@ -6,19 +6,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <nav class="menulateral">
         <ul>
             <!-- Primeiro item de menu -->
             <li>
-                <a class="active" href="index.html">Meu blog</a>
+                <a href="index.html">Meu blog</a>
             </li>
 
             <!-- Menu "Lei 8112" com submenu expansível -->
             <li>
-                <input type="checkbox" id="menu1" class="menu-checkbox">
-                <label for="menu1"><a href="lei8112.html">Lei 8112</a></label>
+                <input type="checkbox" id="menu1" class="menu-checkbox" checked>
+                <label for="menu1"><a  href="lei8112.html">Lei 8112</a></label>
+
                 <ul>
-                    <li><a href="penalidades.html">Penalidades</a></li>
+                    <li><a class="active" href="penalidades.html">Penalidades</a></li>
                     <li><a href="provimento.html">Provimento</a></li>
                     <li><a href="proibicoes.html">Proibições</a></li>
                 </ul>
@@ -48,16 +50,25 @@
             </li>
 
            
-
+            </li>
         </ul>
     </nav>
 
+    <!-- Conteúdo da Página -->
     <div style="margin-left:16%; padding:1px 16px; height:1000px;">
-        <h1>
-            <center>
-                <img class="imagem" src="FOTOBLOG.webp" alt="foto">
-            </center>
-        </h1>
+        <h1>Penalidades</h1>
+        <p>Art. 127. São penalidades disciplinares:<br>
+            I - advertência;<br>
+            II - suspensão;<br>
+            III - demissão;<br>
+            IV - cassação de aposentadoria ou disponibilidade; (Vide ADPF nº 418)<br>
+            V - destituição de cargo em comissão;<br>
+            VI - destituição de função comissionada.
+        </p>
+        <figure>
+            <img class="imagem" src="penalidades.png" alt="penalidades">
+        </figure>
     </div>
+
 </body>
 </html>
